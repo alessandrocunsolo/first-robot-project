@@ -8,35 +8,28 @@
     <p><a href="http://flask.pocoo.org/" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
 </div> -->
 
-<div class="row" id="panel">
+<div id="panel">
+    
+
     <!--<div class="col-md-6">
         <img id="imgbox" alt="Image Coming" />
     </div> -->
-    <div class="col-md-12">
-        <div id="buttonContainer">
-            <div class="row">
-                <div class="col" style="text-align: center">
-                    <button class="btn btn-default" id="btnAvanti">Avanti</button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4" style="text-align: left">
-                    <button class="btn btn-default" id="btnSinistra">Sinistra</button>
-                </div>
-                <div class="col-md-4" style="text-align: center">
-                    <button class="btn btn-default" id="btnStop">STOP</button>
-                </div>
-                <div class="col-md-4" style="text-align: right">
-                    <button class="btn btn-default" id="btnDestra">Destra</button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col" style="text-align: center">
-                    <button class="btn btn-default" id="btnIndietro">Indietro</button>
-                </div>
-            </div>
+    
+    <div id="buttonContainer">
+        <div id="top-button-bar">
+            <button class="btn btn-default" id="btnAvanti">Avanti</button>
+        </div>
+        <div id="center-button-bar">
+                <button class="btn btn-default" id="btnSinistra" style="float:left">Sinistra</button>
+                <button class="btn btn-default" id="btnStop">STOP</button>              
+                <button class="btn btn-default" id="btnDestra" style="float:right;">Destra</button>
+        </div>
+        <div id="bottom-button-bar">
+            <button class="btn btn-default" id="btnIndietro">Indietro</button>
         </div>
     </div>
+
+    
 </div>
 
     {% endblock %}

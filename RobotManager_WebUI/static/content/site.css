@@ -50,3 +50,24 @@ input[type="checkbox"].input-validation-error {
     height:100%;
     border:2px solid red;
 }
+#panel
+{
+    height: 450px;
+    width: 600px;
+}
+#top-button-bar
+{
+    text-align: center;
+}
+#center-button-bar
+{
+    margin-top:30%;
+    width: 100%;
+    text-align:center;
+}
+#bottom-button-bar
+{
+    width:100%;
+    text-align: 
+    center;margin-top:28%;
+}
