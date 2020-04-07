@@ -1,5 +1,4 @@
 # first-robot-project
-My first robot project
 Project uses Raspberry-pi Model B, arduino and motor controller for controlling very basic Robot.
 Robot sees by webcam connected to Raspberry.
 On Raspberry there is installed linux Raspbian with Python and lighthttp server.
